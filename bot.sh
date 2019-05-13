@@ -6,8 +6,7 @@ echo "$info" >> commit.txt
 echo "$info"
 echo
 
-# Ship it
-git add output.txt
+git add .
 git commit -m "$info"
 git push origin master
 
