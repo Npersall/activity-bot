@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 info="Commit: $(date)"
 
-cd ~/Desktop/code/commit-bot/
+cd ~/Code/github_projects/commit-bot
 echo "$info" >> commit.txt
 echo "$info"
 echo
